@@ -1,4 +1,16 @@
+
 .welcome-card ion-img {
   max-height: 35vh;
+  max-width: 70%;
   overflow: hidden;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,d6a4c9+12,5961b7+25,a0c63d+40,d69444+54,3a8bc2+69,8848e2+87,26558b+100 */
+background: #cedbe9; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #cedbe9 0%, #d6a4c9 12%, #5961b7 25%, #a0c63d 40%, #d69444 54%, #3a8bc2 69%, #8848e2 87%, #26558b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #cedbe9 0%,#d6a4c9 12%,#5961b7 25%,#a0c63d 40%,#d69444 54%,#3a8bc2 69%,#8848e2 87%,#26558b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #cedbe9 0%,#d6a4c9 12%,#5961b7 25%,#a0c63d 40%,#d69444 54%,#3a8bc2 69%,#8848e2 87%,#26558b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+ion-img{
+  height: 400px;
+  width: 400px;
 }
